@@ -8,12 +8,12 @@ language: es
 # Matriz de competencias — PYDEV-001
 
 **Estado:** borrador para revisión; no constituye una aprobación curricular ni una evaluación del estudiante.  
-**Fuente de alineación:** `LEARNING_PATH.md`, resultados globales, mapa de módulos, clases y criterios de salida.  
+**Fuente de alineación:** competencias globales definidas en `LEARNING_PATH.md` y su relación con módulos, clases, evidencias y criterios de salida.  
 **Propósito:** relacionar cada competencia observable con las clases que la desarrollan y con la evidencia prevista en la ruta.
 
 ## Convenciones
 
-- Los identificadores `PYDEV-001-C01` a `PYDEV-001-C10` son propuestos para esta matriz. Se vuelven estables si la matriz se aprueba; no sustituyen los IDs de módulos o clases.
+- Los identificadores `PYDEV-001-C01` a `PYDEV-001-C10` son estables y se definen en `LEARNING_PATH.md`; no sustituyen los IDs de módulos o clases.
 - Las clases listadas indican dónde se enseña, practica o integra la competencia. La evidencia indicada se deriva de los criterios de salida existentes en la ruta.
 - La matriz describe el diseño del curso. No registra progreso individual ni declara competencias validadas.
 
@@ -65,7 +65,5 @@ language: es
 
 ## Revisión requerida antes de aprobar
 
-- Confirmar si los diez resultados globales deben conservarse como diez competencias o si conviene agrupar algunos.
-- Revisar los IDs propuestos y su estabilidad.
-- Cotejar que cada evidencia y criterio coincida con la ruta curricular activa.
-- Resolver observaciones antes de mover este borrador a la carpeta de artefactos aprobados.
+- Cotejar la relación entre cada competencia, las clases asignadas, las evidencias y los criterios de la ruta curricular.
+- Resolver observaciones sobre criterios de logro y mapeos antes de aprobar la matriz.
