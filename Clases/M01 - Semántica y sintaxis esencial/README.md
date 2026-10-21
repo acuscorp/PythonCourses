@@ -76,7 +76,7 @@ Las lecciones se mantienen en archivos separados con el ID y el título curricul
 - [M01-C03 — Condicionales y bucles](<M01-C03 - Condicionales y bucles.md>)
 - [M01-C04 — Cadenas, f-strings, slicing y excepciones](<M01-C04 - Cadenas, f-strings, slicing y excepciones.md>)
 - [M01-C05 — Imports y punto de entrada](<M01-C05 - Imports y punto de entrada.md>)
-- [M01-C06 — Primeras pruebas con `unittest`](<M01-C06 - Primeras pruebas con `unittest`.md>)
+- [M01-C06 — Primeras pruebas con `unittest`](<M01-C06 - Primeras pruebas con unittest.md>)
 
 # 7. Proyecto integrador — Analizador de texto en memoria
 
