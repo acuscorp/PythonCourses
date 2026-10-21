@@ -210,7 +210,7 @@ El listado siguiente es el índice curricular propuesto de las clases previstas.
   - Contenido: versión de Python, `python`, `python -m pip`, ejecutar un archivo, directorio de trabajo, rutas básicas en WSL 2/Ubuntu y lectura de errores de ejecución.
   - Evidencia: ejecutar un script propio, explicar el comando y guardar un reporte breve del entorno.
 - **M00-C02 — Git y espacio de trabajo del curso**
-  - **Objetivo observable:** Preparar un espacio de trabajo versionado y reproducible sin confundir configuración del repositorio con configuración global.
+  - **Objetivo observable:** Preparar un espacio de trabajo reproducible sin confundir configuración del repositorio con configuración global.
   - Contenido: comprobar Git, configurar identidad del repositorio cuando corresponda, crear/inspeccionar un repositorio y registrar comandos útiles.
   - Evidencia: repositorio de trabajo accesible y registro de los pasos necesarios para reproducir el entorno.
 
