@@ -3,7 +3,7 @@ course_id: PYDEV-001
 artifact_id: M02-C01
 artifact_type: class
 status: DRAFT
-version: 1
+version: 2
 language: es
 module_id: M02
 class_id: M02-C01
@@ -38,12 +38,13 @@ El objetivo no es memorizar cuatro definiciones: es convertir requisitos en una 
 
 ## 3. Fuentes consultadas y límites
 
-1. **Python Software Foundation, Tutorial oficial de Python, sección 5 — Estructuras de datos.** Fuente principal para listas, tuplas, conjuntos, diccionarios y sus operaciones básicas: https://docs.python.org/es/3/tutorial/datastructures.html
-2. **Python Software Foundation, documentación de tipos integrados.** Referencia complementaria para el comportamiento de los tipos integrados: https://docs.python.org/3/library/stdtypes.html
+1. **Python Software Foundation, Tutorial oficial de Python, sección 5 — Estructuras de datos.** Consultado para las operaciones básicas de listas, tuplas, conjuntos y diccionarios: https://docs.python.org/es/3/tutorial/datastructures.html
+2. **Python Software Foundation, documentación de tipos integrados.** Consultada para contrastar la semántica de secuencias, mapeos, conjuntos y mutabilidad: https://docs.python.org/3/library/stdtypes.html
 3. **Fluent Python, 2.ª edición**, índice enlazado en la ruta curricular: https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/
 4. **The Quick Python Book, 3.ª edición**, índice enlazado en la ruta curricular: https://livebook.manning.com/book/the-quick-python-book-third-edition/table-of-contents
 
-**Trazabilidad:** se consultó el Tutorial oficial para desarrollar las explicaciones de esta clase. Los enlaces de los libros permiten identificar los capítulos propuestos en la ruta, pero no se tuvo acceso al texto completo de esos capítulos durante esta preparación; por tanto, no se atribuyen a esos libros explicaciones específicas que no se hayan verificado. La exposición y los ejemplos didácticos propios se distinguen de las fuentes.
+**Trazabilidad:** se consultaron directamente las dos páginas oficiales de Python enlazadas arriba. Los libros se identificaron mediante los índices disponibles, pero no se leyó el texto completo de los capítulos asignados durante esta preparación; no se les atribuyen explicaciones específicas sin verificar. Los escenarios y ejercicios son ejemplos didácticos elaborados para esta clase, no citas de las fuentes.
+
 
 ## 4. Conceptos y explicación
 
@@ -67,11 +68,11 @@ Las cuatro opciones se pueden resumir así:
 | `dict` | Claves asociadas a valores | Conserva orden de inserción | Las claves son únicas; los valores pueden repetirse | Sí |
 | `set` | Conjunto de elementos únicos | No ofrece orden posicional | No | Sí |
 
-El orden de un diccionario es el orden de inserción en las versiones modernas de Python; eso no lo convierte en una secuencia indexada por posición. Un conjunto no debe utilizarse cuando la lógica dependa del orden en que aparecen sus elementos.
+Los diccionarios conservan el orden de inserción como parte del comportamiento del lenguaje desde Python 3.7. Eso no los convierte en secuencias indexadas por posición: se consulta una entrada mediante su clave. Un conjunto no ofrece orden posicional y no debe utilizarse cuando la lógica dependa de la posición o del orden de aparición.
 
 ### 4.2 `list`: una secuencia que cambia
 
-Una lista sirve cuando necesitas conservar una colección ordenada por posición, permitir duplicados y modificar su contenido.
+Una lista sirve cuando necesitas conservar una colección ordenada por posición, permitir duplicados y modificar su contenido. «Ordenada» aquí significa que las posiciones están definidas y se conservan; no significa que Python ordene automáticamente los valores de menor a mayor.
 
 ~~~python
 productos = ["café", "té", "café"]
@@ -210,7 +211,9 @@ En cambio, `precios["agua"]` lanza `KeyError` porque la clave no existe. Usa acc
 
 **Elige un diccionario cuando** debas recuperar datos por un identificador: precio por código de producto, configuración por nombre, usuario por ID o conteo por categoría.
 
-Las claves deben cumplir las reglas de hashabilidad de Python. En esta clase basta con una regla práctica: cadenas y números suelen servir como claves; una lista no puede utilizarse directamente como clave. El razonamiento más profundo sobre hashabilidad corresponde a M02-C05.
+La expresión `clave in precios` comprueba si la clave existe; no busca entre los valores. Por ejemplo, `32 in precios` es falso aunque 32 sea uno de los precios, mientras que `"té" in precios` es verdadero.
+
+Las claves de un diccionario y los elementos de un conjunto deben ser hashables. Para esta clase basta con una regla práctica: cadenas e enteros suelen funcionar; una lista no puede usarse directamente como clave ni como elemento de un conjunto. Las reglas y excepciones de hashabilidad se estudiarán con más detalle en M02-C05.
 
 ### 4.5 `set`: pertenencia y unicidad
 
@@ -219,13 +222,21 @@ Un conjunto guarda elementos únicos. Resulta útil cuando la pregunta principal
 ~~~python
 codigos = {"A12", "B07", "A12", "C33"}
 
-print(codigos)
+print(len(codigos))
 print("B07" in codigos)
 codigos.add("D21")
 print(len(codigos))
 ~~~
 
-El conjunto contiene cuatro valores escritos, pero solo tres elementos distintos antes de agregar `"D21"`. Después de agregarlo, su tamaño es cuatro. El orden mostrado puede variar; no bases la lógica en la posición de los elementos.
+Salida:
+
+~~~text
+3
+True
+4
+~~~
+
+Aunque el literal contiene cuatro apariciones, el conjunto conserva solo tres elementos distintos. Al agregar "D21", su tamaño pasa a cuatro. Evitamos imprimir el conjunto completo porque el orden de su representación no es parte del contrato; la pertenencia y el tamaño son las propiedades relevantes para este ejemplo.
 
 Las operaciones de conjuntos expresan relaciones entre grupos:
 
@@ -246,7 +257,7 @@ Resultados semánticos:
 
 El orden concreto al imprimir cada conjunto no es parte del contrato.
 
-Para crear un conjunto vacío, utiliza `set()`, no `{}`: las llaves vacías crean un diccionario vacío.
+Para crear un conjunto vacío, utiliza `set()`, no `{}`: las llaves vacías crean un diccionario vacío. Puedes comprobar la diferencia con `type(set()).__name__` y `type({}).__name__`, que producen `"set"` y `"dict"`, respectivamente.
 
 **Elige un conjunto cuando** la unicidad y las pruebas de pertenencia sean centrales: permisos disponibles, etiquetas únicas, IDs ya procesados o elementos compartidos por dos grupos.
 
@@ -279,6 +290,18 @@ Como orientación general, las listas ofrecen acceso por índice eficiente; busc
 | Representar un pequeño registro fijo | `tuple` |
 
 No hace falta elegir la estructura supuestamente más rápida antes de entender el requisito. Empieza por la semántica correcta; mide el rendimiento cuando el volumen o el perfil de ejecución hagan que esa decisión importe. El análisis detallado de complejidad se profundizará en M02-C05.
+
+### 4.8 Un procedimiento de decisión reutilizable
+
+Cuando recibas un requisito nuevo, toma la decisión en este orden:
+
+1. **¿Necesitas consultar por identificador?** Evalúa primero un `dict` si cada clave debe apuntar a un valor o estado actual.
+2. **¿Necesitas unicidad o comprobar pertenencia?** Evalúa un `set` si no necesitas posiciones ni duplicados.
+3. **¿Necesitas una secuencia con posiciones?** Elige entre `list` y `tuple`: usa `list` si la colección debe cambiar; usa `tuple` si las posiciones del registro deben permanecer fijas.
+4. **¿Qué información se perdería con otra opción?** Comprueba si eliminar duplicados, cambiar el orden de representación o perder una asociación clave-valor rompería el requisito.
+5. **¿Qué operación será habitual?** Si varias estructuras cumplen la semántica, compara las operaciones que el programa hará con más frecuencia.
+
+No es un algoritmo que siempre produzca una única respuesta. A veces dos estructuras cumplen funciones complementarias: una lista conserva el historial de eventos y un conjunto registra cuáles IDs ya aparecieron. En ese caso no duplican inútilmente el modelo; conservan información distinta para consultas distintas.
 
 ## 5. Ejemplos resueltos
 
@@ -349,7 +372,10 @@ c = {"rojo": 1, "azul": 2, "rojo": 3}
 1. ¿Cuántos elementos contiene cada estructura?
 2. ¿Qué valor queda asociado a la clave `"rojo"` en `c`?
 3. ¿Cuál de las tres estructuras conserva dos apariciones de `"rojo"`?
-4. Explica por qué el conjunto no es apropiado si necesitamos saber en qué posición apareció cada color.
+4. ¿Qué comprueba `"rojo" in c`: si aparece como clave o si aparece como valor?
+5. Explica por qué el conjunto no es apropiado si necesitamos saber en qué posición apareció cada color.
+
+**Respuestas para autocorrección:** `a` contiene 3 elementos, `b` contiene 2 y `c` contiene 2 claves. En `c["rojo"]` queda el valor `3`, porque la segunda asignación a esa clave reemplaza la anterior. La lista conserva las dos apariciones de `"rojo"`. La expresión `"rojo" in c` comprueba las claves del diccionario y devuelve `True`; no comprueba sus valores.
 
 **Criterio:** no basta con enumerar resultados; explica la regla de la estructura que produce cada resultado.
 
@@ -377,6 +403,31 @@ Para cada elección, explica qué requisito resuelve y qué propiedad de las otr
 Revisa tu propuesta: ¿el conjunto de IDs vistos reemplaza a la lista de llegadas o ambos conservan información distinta? ¿Qué estructura debe utilizarse para recuperar el estado por ID?
 
 **Pista:** piensa por separado en historial, consulta por clave, pertenencia y par fijo. No escribas una solución completa hasta que la decisión semántica esté clara.
+
+**Comprueba tu decisión después de intentarlo:**
+
+~~~python
+llegadas = ["P-17", "P-18", "P-17"]
+estado_por_id = {"P-17": "en preparación", "P-18": "enviado"}
+ids_vistos = {"P-17", "P-18"}
+coordenada_entrega = (19.70, -101.19)
+
+print(llegadas)
+print(estado_por_id["P-17"])
+print("P-18" in ids_vistos)
+print(coordenada_entrega)
+~~~
+
+Salida esperada:
+
+~~~text
+['P-17', 'P-18', 'P-17']
+en preparación
+True
+(19.7, -101.19)
+~~~
+
+La lista conserva las tres llegadas, incluido el ID repetido. El diccionario permite consultar el estado actual mediante el ID. El conjunto responde si un ID ya fue visto sin guardar duplicados. La tupla expresa un par fijo de coordenadas. En una aplicación real, podrías mantener tanto la lista como el conjunto porque responden preguntas distintas.
 
 ## 8. Práctica independiente y transferencia
 
@@ -439,14 +490,14 @@ La siguiente clase, M02-C02 — *Slicing, desempaquetado y operaciones de secuen
 
 | Criterio | Resultado | Justificación |
 | --- | --- | --- |
-| ID, título y objetivo alineados con la ruta | PASS | Se conservaron M02-C01 y el título curricular; el objetivo es observable. |
-| Prerrequisitos y límites curriculares explícitos | PASS | Se declara M01/equivalencia y se reservan slicing, iteración avanzada, hashabilidad y copias para clases posteriores. |
-| Fuentes rastreables y honestidad de acceso | PASS | Se enlaza la documentación oficial consultada y se declara que los capítulos de libros solo se verificaron mediante sus índices, no por lectura completa. |
-| Explicaciones explícitas y ejemplos resueltos | PASS | Cada estructura incluye semántica, código, resultados o interpretación y una guía de selección. |
-| Comprobación, práctica guiada e independiente | PASS | Las actividades avanzan desde predicción conceptual a transferencia con criterios observables. |
-| Errores previsibles y remediación | PASS | Se incluyen confusiones comunes, explicación y una acción de comprobación posterior. |
-| Evidencia y criterios de éxito | PASS | Se define un producto revisable y condiciones específicas, sin confundir finalización con dominio. |
-| Verificación de ejecución de todos los ejemplos | FIX | Los resultados se revisaron por consistencia semántica con la documentación consultada, pero no se ejecutó el archivo con un intérprete en esta preparación. Mantener el material como DRAFT hasta ejecutar las comprobaciones de código. |
-| Aprobación académica del material | NOT APPLICABLE | La creación del borrador no equivale a aprobación del artefacto. |
+| ID, título, objetivo y prerrequisitos alineados con la ruta | PASS | Se conservan el ID y título curricular; el objetivo se centra en seleccionar estructuras según los requisitos. |
+| Límites curriculares | PASS | Se reservan slicing, comprensiones, protocolo de iteración, hashabilidad profunda, copias y complejidad detallada para clases posteriores. |
+| Fuentes rastreables y honestidad de acceso | PASS | Se consultaron dos páginas oficiales; se declara que los capítulos de los libros solo se identificaron mediante sus índices. |
+| Explicaciones y ejemplos resueltos | PASS | Cada estructura tiene semántica, ejemplo y guía de selección; se aclara que `in` en diccionarios comprueba claves. |
+| Comprobación, práctica guiada e independiente | PASS | La predicción conceptual incluye autocorrección; la práctica guiada muestra una solución razonada tras la pista. |
+| Errores previsibles y remediación | PASS | Se explican confusiones frecuentes y se propone una comprobación alternativa. |
+| Ejemplos deterministas ejecutados | PASS | Se ejecutaron los ejemplos principales y la comprobación conceptual en un intérprete Python; las aserciones y el caso de `KeyError` pasaron. |
+| Lectura directa de los libros asignados | FIX | No se tuvo acceso al texto completo de los capítulos asignados; la clase no debe presentarse como fundamentada en una lectura directa de esos libros. |
+| Aprobación académica del material | NOT APPLICABLE | La revisión técnica del borrador no equivale a aprobación curricular ni demuestra aprendizaje del estudiante. |
 
-**Resultado de aceptación:** DRAFT. La clase tiene estructura didáctica completa, pero no se marca `READY` porque falta la ejecución de los ejemplos en un intérprete y la aprobación del material. Antes de usarla como artefacto final, ejecutar los ejemplos, corregir cualquier discrepancia y volver a revisar este cuadro.
+**Resultado de aceptación:** `DRAFT`. Se corrigieron los defectos técnicos y pedagógicos identificados y se verificaron los ejemplos deterministas. Se conserva `DRAFT` porque falta cotejar directamente los capítulos asignados de los libros y obtener aprobación académica. La clase no está marcada `READY`.
