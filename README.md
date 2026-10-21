@@ -23,4 +23,4 @@ Repositorio curricular del curso de Python para desarrolladores.
 
 ## Estado de migración
 
-La ruta `LEARNING_PATH.md` ya existía en la rama `main` y no se modificó durante la preparación de este repositorio. La migración del estado del curso y de materiales restantes está pendiente de revisión y carga independiente.
+La migración inicial del estado del curso ya está aplicada en `COURSE_STATE.md`, y la ruta `LEARNING_PATH.md` se conservó durante la preparación del repositorio. Siguen pendientes el cotejo de las evidencias históricas de M01 y la preparación y revisión de M02-C01.
