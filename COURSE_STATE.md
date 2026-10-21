@@ -22,7 +22,7 @@ Este archivo contiene únicamente el estado dinámico del estudiante y la posici
 
 ## Estado confirmado
 
-- **Posición actual:** M02-C01 — selección y semántica de colecciones.
+- **Siguiente posición planificada:** M02-C01 — selección y semántica de colecciones. M02 aún no ha comenzado; la posición señala la próxima clase prevista.
 - **M02-C01:** `NOT_STARTED`. Reiniciada por solicitud del estudiante el 2026-10-21. El material anterior se retiró de la carpeta activa; no se considera aprobado ni se reutilizará como clase activa.
 - **M01-C06:** `COMPLETED_REPORTED`. El estudiante informó que ejecutó pruebas con `unittest`, introdujo un defecto intencional, comprobó que la prueba fallaba y restauró el código. Esto no valida automáticamente todas las competencias de testing.
 - **M01-C01 a M01-C05:** evidencia parcial histórica, pendiente de cotejo con los criterios exactos de la ruta curricular.
@@ -36,7 +36,7 @@ Este archivo contiene únicamente el estado dinámico del estudiante y la posici
 |---|---|---|---|
 | M00 — Diagnóstico y entorno | PENDING_REVIEW | Diagnóstico formal no acreditado | Resolver el diagnóstico cuando corresponda |
 | M01 — Semántica y sintaxis esencial | IN_PROGRESS | C06 reportada como completada; C01–C05 con evidencia parcial | Cotejar evidencias con los criterios curriculares |
-| M02 — Colecciones, iteración y protocolo de datos | IN_PROGRESS | M02-C01 reiniciada y NOT_STARTED; material activo pendiente de reconstrucción y revisión | Preparar y revisar M02-C01 conforme a LEARNING_PATH.md |
+| M02 — Colecciones, iteración y protocolo de datos | NOT_STARTED | M02-C01 es la siguiente clase planificada y aún no se ha iniciado | Revisar los prerrequisitos de M00 y M01 o documentar evidencia equivalente antes de comenzar M02 |
 | M03–M10 | NOT_STARTED | Sin progreso registrado en este estado | Avanzar según prerrequisitos y evidencias |
 
 ## Reglas de actualización
