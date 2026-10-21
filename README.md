@@ -4,7 +4,7 @@ Repositorio curricular del curso de Python para desarrolladores.
 
 ## Archivo curricular activo
 
-- [Ruta curricular](LEARNING_PATH.md) — v0.5.9.
+- [Ruta curricular](LEARNING_PATH.md).
 - [Estado del curso](COURSE_STATE.md) — se añadirá en una siguiente operación una copia saneada, después de revisar el contenido y confirmar su compatibilidad con esta ruta.
 
 ## Organización prevista
@@ -17,7 +17,7 @@ Repositorio curricular del curso de Python para desarrolladores.
 ## Reglas de mantenimiento
 
 - No sobrescribir un archivo existente sin leerlo primero y confirmar que corresponde actualizarlo.
-- Conservar la ruta curricular actual y su versión en los cambios administrativos.
+- Conservar la ruta curricular activa en los cambios administrativos.
 - No marcar una clase como completada ni una competencia como validada sin evidencia.
 - No publicar contraseñas, tokens, claves API, archivos de entorno, datos médicos, datos personales sensibles ni evidencias identificables.
 - Mantener los borradores claramente separados de los materiales aprobados.
