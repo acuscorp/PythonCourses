@@ -4,8 +4,7 @@ Actualizado al 2026-10-21 tras el reinicio solicitado de M02-C01.
 
 ## Artefactos vigentes
 
-- `LEARNING_PATH.md`: ruta curricular activa; incluye una tabla de lecturas propuestas por clase. Las referencias no aprueban automáticamente materiales ni asignan capítulos no verificados.
-- `BIBLIOGRAFIA.md`: catálogo central de fuentes candidatas, enlaces y campos de verificación bibliográfica pendientes.
+- `LEARNING_PATH.md`: ruta curricular activa; incluye una tabla de lecturas por clase, con enlaces directos a índices consultados y capítulos propuestos. Cotejar la edición del ejemplar antes de generar cada clase.
 - Registro de aprobación: documenta el alcance y los límites de la revisión curricular.
 - Informe de revisión: registra la revisión documental de la ruta.
 - Matriz de migración: registra la migración conservadora aplicada; el cotejo fino de evidencias sigue pendiente.
