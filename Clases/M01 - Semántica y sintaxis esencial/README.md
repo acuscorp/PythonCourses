@@ -155,17 +155,9 @@ Registrar cada dimensión como `PENDIENTE`, `CON APOYO` o `VALIDADO`:
 - No afirmar que un comando o test fue ejecutado si no existe evidencia de ejecución.
 - Al terminar cada clase, resumir dominio demostrado, errores a reforzar, evidencia y siguiente actividad.
 
-## Registro de progreso
+## Registro del progreso individual
 
-| Clase | Estado | Evidencia / brecha |
-|---|---|---|
-| 1. Nombres, objetos e identidad | PENDIENTE | |
-| 2. Tipos y truthiness | PENDIENTE | |
-| 3. Condicionales y bucles | PENDIENTE | |
-| 4. Cadenas y excepciones | PENDIENTE | |
-| 5. Imports y punto de entrada | PENDIENTE | |
-| 6. `unittest` | PENDIENTE | |
-| Proyecto y checkpoint | PENDIENTE | |
+El progreso del estudiante se registra únicamente en [`COURSE_STATE.md`](../../COURSE_STATE.md).
 
 ---
 
