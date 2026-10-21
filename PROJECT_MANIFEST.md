@@ -21,7 +21,7 @@ Los documentos y materiales anteriores se conservan bajo `Historial/` como regis
 ## Estado de validación
 
 - 58 IDs de clase únicos en la ruta activa.
-- 13 secciones comunes del formato curricular presentes.
+- La ruta activa se presenta en una tabla compacta de 58 clases con lecturas mapeadas.
 - La ruta no certifica progreso ni aprueba automáticamente materiales de clase.
 - `M01-C06` permanece `COMPLETED_REPORTED`, sin elevarse a dominio validado.
 - `M02-C01` está `NOT_STARTED` y no tiene material activo en `Clases/`; el material previo está archivado. La clase nueva deberá cotejarse con la ruta activa y aprobarse antes de impartirse.
