@@ -5,7 +5,7 @@ Repositorio curricular del curso de Python para desarrolladores.
 ## Archivo curricular activo
 
 - [Ruta curricular](LEARNING_PATH.md).
-- [Estado del curso](COURSE_STATE.md) — se añadirá en una siguiente operación una copia saneada, después de revisar el contenido y confirmar su compatibilidad con esta ruta.
+- [Estado del curso](COURSE_STATE.md) — posición actual y progreso académico registrado.
 
 ## Organización prevista
 
