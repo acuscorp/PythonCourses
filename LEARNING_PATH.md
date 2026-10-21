@@ -1,4 +1,31 @@
+---
+course_id: PYDEV-001
+artifact_type: learning_path
+status: APPROVED_WITH_DOCUMENTED_SCOPE_LIMIT
+language: es
+---
+
 # Ruta curricular — Python para desarrolladores
+
+## Instrucciones para generar clases
+
+1. Consultar el estado del curso y esta ruta antes de preparar una clase. Respetar el ID, título, prerrequisitos, alcance y lecturas mapeadas en la tabla.
+2. Preparar las clases progresivamente, cuando el avance las requiera. La presencia de una clase en la tabla indica que está planificada; no significa que su material exista, esté completo o esté aprobado.
+3. Revisar las fuentes asignadas antes de redactar: comprobar edición e índice, leer la sección pertinente y contrastar con documentación oficial vigente cuando aplique. Registrar en el material únicamente las fuentes realmente consultadas; no inventar capítulos, páginas, citas ni resultados. Si la edición o fuente no coincide, localizar una sección equivalente y consignarla; si no se puede respaldar el contenido, dejarlo pendiente.
+4. Crear el material como `DRAFT` y seguir la [Guía para preparar las clases](GUIA_DE_CLASES.md), que define su estructura didáctica y el registro de fuentes.
+5. Antes de declarar una clase `READY`, verificar prerrequisitos, objetivo observable, explicación y ejemplos correctos, secuencia didáctica, práctica pertinente, evidencia revisable, errores previsibles con remediación y fuentes verificadas. Justificar en el material cualquier elemento que no aplique.
+6. Si falta un artefacto necesario o existe una incompatibilidad con la ruta, detener la generación de material oficial y reportar el problema; no improvisar un cambio curricular.
+
+## Alcance y límites
+
+- La jerarquía es **Módulo → Submódulo opcional → Clase**. Las secciones, ejercicios y actividades pertenecen al interior de una clase; no son niveles curriculares adicionales.
+- Cada clase conserva un ID y título únicos de la tabla, un objetivo observable, contenido delimitado, prerrequisitos y evidencia. Los cambios sustanciales de alcance requieren actualizar la ruta y revisar materiales dependientes.
+- No impartir en profundidad contenidos reservados a módulos posteriores. Se permiten menciones o ejemplos mínimos cuando ayuden a explicar el objetivo actual.
+- Los temas indicados como exploratorios u opcionales no se convierten en requisitos de aprobación por aparecer en una lectura o actividad.
+- La tabla propone lecturas para orientar la preparación; no obliga a leer un libro completo ni sustituye el juicio de pertinencia del material.
+- Generar o leer una clase no demuestra por sí solo dominio del estudiante. La competencia se valida con la evidencia prevista y registrada en el estado del curso.
+
+## Ruta: módulo, clase y lecturas
 
 | Módulo | Clase | Fuentes y enlaces | Capítulos o secciones |
 | ------ | ----- | ----------------- | --------------------- |
