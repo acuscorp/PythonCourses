@@ -13,6 +13,25 @@ Esta ruta define las competencias, dependencias, alcances y lecturas que orienta
 
 La jerarquía es **Módulo → Submódulo opcional → Clase**. Los submódulos agrupan clases cuando aportan claridad. Ejercicios, actividades y secciones forman parte de una clase; no son niveles curriculares adicionales. Cada clase conserva el ID y título de este índice.
 
+### Competencias globales
+
+Al completar la ruta, se espera que el estudiante desarrolle estas competencias observables. Los IDs son estables y se usan en la matriz para vincularlas con clases y evidencias.
+
+| ID | Competencia observable |
+| --- | --- |
+| PYDEV-001-C01 | Explica cómo funcionan los nombres, objetos, referencias, identidad y mutabilidad en Python, y razona sobre protocolos cuando el contexto lo requiere. |
+| PYDEV-001-C02 | Escribe código Python claro e idiomático y justifica sus elecciones de lenguaje y estructuras según los requisitos. |
+| PYDEV-001-C03 | Organiza funciones, módulos, paquetes e interfaces con responsabilidades explícitas, contratos de entrada y salida y bajo acoplamiento apropiado al alcance. |
+| PYDEV-001-C04 | Maneja errores, archivos, datos estructurados, configuración y argumentos de línea de comandos para producir herramientas comprensibles y operables. |
+| PYDEV-001-C05 | Prueba, depura, revisa y mejora programas; usa perfilado o medición cuando la pregunta lo justifica. |
+| PYDEV-001-C06 | Configura un proyecto reproducible con dependencias, documentación y comandos de verificación que otra persona pueda seguir. |
+| PYDEV-001-C07 | Integra servicios HTTP y almacenamiento SQL, con validación, configuración externa y gestión de fallos. |
+| PYDEV-001-C08 | Elige entre ejecución secuencial, `asyncio`, hilos y procesos según la carga y los costes, y sustenta la decisión con evidencia. |
+| PYDEV-001-C09 | Entrega un proyecto reproducible y documentado, defiende sus decisiones técnicas y reconoce sus limitaciones. |
+| PYDEV-001-C10 | Compara áreas de especialización mediante prototipos acotados y elige una siguiente ruta con una justificación explícita. |
+
+La [matriz de competencias](MATRIZ_COMPETENCIAS.md) relaciona estas competencias con clases y evidencias; se mantiene en revisión hasta validar sus mapeos.
+
 ### Resultados y prerrequisitos por módulo
 
 | Módulo | Área | Prerrequisitos | Resultado / evidencia de salida |
