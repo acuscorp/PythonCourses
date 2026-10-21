@@ -13,7 +13,7 @@ Actualizado al 2026-10-21 tras el reinicio solicitado de M02-C01.
 - Dictamen de migración: deja pendientes los cotejos de evidencia.
 - `Clases/M01 - Semántica y sintaxis esencial/README.md`: plan y material de referencia de M01.
 - `Clases/M01 - Semántica y sintaxis esencial/`: seis archivos de clase con ID y título tomados de la ruta; permanecen en estado de borrador.
-- `propuestas/MATRIZ_COMPETENCIAS.md`: matriz de competencias alineada con la ruta, en estado `DRAFT_FOR_REVIEW`.
+- `MATRIZ_COMPETENCIAS.md`: matriz de competencias alineada con la ruta, en estado `DRAFT_FOR_REVIEW`.
 
 ## Historial
 
