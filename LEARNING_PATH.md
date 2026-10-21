@@ -38,7 +38,6 @@ content_change: no_curricular_content_change
 10. [Materiales de referencia](#10-materiales-de-referencia)
 11. [Registro y seguimiento del progreso](#11-registro-y-seguimiento-del-progreso)
 12. [Decisiones pendientes](#12-compatibilidad-migracion-y-decisiones-pendientes)
-13. [Historial de versiones](#13-historial-de-versiones)
 
 ---
 
