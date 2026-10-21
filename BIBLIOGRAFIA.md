@@ -8,6 +8,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 
 ## Libros candidatos
 
+<a id="b01"></a>
+
 ### B01 — Learning Python
 
 - **Autoría:** Mark Lutz.
@@ -16,6 +18,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** M01–M03.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b02"></a>
 
 ### B02 — The Quick Python Book
 
@@ -26,6 +30,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b03"></a>
+
 ### B03 — Effective Python: 59 Specific Ways to Write Better Python
 
 - **Autoría:** Autoría y edición por confirmar contra el ejemplar.
@@ -34,6 +40,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Idiomatismos y diseño.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b04"></a>
 
 ### B04 — Fluent Python
 
@@ -44,6 +52,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b05"></a>
+
 ### B05 — Python 3 Object-Oriented Programming
 
 - **Autoría:** Dusty Phillips.
@@ -52,6 +62,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Clases y diseño orientado a objetos.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b06"></a>
 
 ### B06 — Python Cookbook
 
@@ -62,6 +74,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b07"></a>
+
 ### B07 — The Python Standard Library by Example
 
 - **Autoría:** Doug Hellmann.
@@ -70,6 +84,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Biblioteca estándar; contrastar con documentación vigente.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b08"></a>
 
 ### B08 — Expert Python Programming: Best practices for designing, coding, and distributing your Python software
 
@@ -80,6 +96,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b09"></a>
+
 ### B09 — The Well-Grounded Python Developer
 
 - **Autoría:** Doug Farrell.
@@ -88,6 +106,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Desarrollo, pruebas y entrega.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b10"></a>
 
 ### B10 — Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns
 
@@ -98,6 +118,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b11"></a>
+
 ### B11 — Foundations of Python Network Programming
 
 - **Autoría:** Brandon Rhodes; John Goerzen.
@@ -106,6 +128,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Redes y HTTP.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b12"></a>
 
 ### B12 — Essential SQLAlchemy
 
@@ -116,6 +140,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b13"></a>
+
 ### B13 — Testing Python: Applying Unit Testing, TDD, BDD and Acceptance Testing
 
 - **Autoría:** David Sale.
@@ -124,6 +150,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Testing.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b14"></a>
 
 ### B14 — Test-Driven Development with Python
 
@@ -134,6 +162,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b15"></a>
+
 ### B15 — High Performance Python: Practical Performant Programming for Humans
 
 - **Autoría:** Micha Gorelick (según el catálogo).
@@ -142,6 +172,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Perfilado y medición.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b16"></a>
 
 ### B16 — Python Concurrency with asyncio
 
@@ -152,6 +184,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b17"></a>
+
 ### B17 — Hypermodern Python Tooling
 
 - **Autoría:** Datos bibliográficos por confirmar.
@@ -160,6 +194,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** M05, tooling reproducible.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b18"></a>
 
 ### B18 — Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
 
@@ -170,6 +206,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b19"></a>
+
 ### B19 — Data Science From Scratch: First Principles with Python
 
 - **Autoría:** Joel Grus.
@@ -178,6 +216,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Exploración de ciencia de datos.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b20"></a>
 
 ### B20 — Python Machine Learning
 
@@ -188,6 +228,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b21"></a>
+
 ### B21 — Cython - A Guide for Python Programmers
 
 - **Autoría:** Kurt W. Smith.
@@ -196,6 +238,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Integración y código nativo.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b22"></a>
 
 ### B22 — CPython Internals: Your Guide to the Python 3 Interpreter
 
@@ -206,6 +250,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
 
+<a id="b23"></a>
+
 ### B23 — Flask Web Development: Developing Web Applications with Python
 
 - **Autoría:** Miguel Grinberg.
@@ -214,6 +260,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 - **Uso propuesto:** Backend y servicios.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
+
+<a id="b24"></a>
 
 ### B24 — The Definitive Guide to Django
 
