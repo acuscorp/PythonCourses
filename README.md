@@ -21,6 +21,3 @@ Repositorio curricular del curso de Python para desarrolladores.
 - No publicar contraseñas, tokens, claves API, archivos de entorno, datos médicos, datos personales sensibles ni evidencias identificables.
 - Mantener los borradores claramente separados de los materiales aprobados.
 
-## Estado de migración
-
-La migración inicial del estado del curso ya está aplicada en `COURSE_STATE.md`, y la ruta `LEARNING_PATH.md` se conservó durante la preparación del repositorio. Siguen pendientes el cotejo de las evidencias históricas de M01 y la preparación y revisión de M02-C01.
