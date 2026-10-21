@@ -1,22 +1,15 @@
 ---
 course_id: PYDEV-001
-version: 0.5.9
-artifact_id: LP-PYDEV-001-v0.5.9
 artifact_type: learning_path
 status: APPROVED_WITH_DOCUMENTED_SCOPE_LIMIT
 language: es
-supersedes: 0.5.8
-format_standard: UT-LP-1.0
 revision_scope: FORMAT_AND_STATUS_RECONCILIATION
 content_change: no_curricular_content_change
-change_proposal: PYDEV-001-CP-0059
-source_version: 0.5.8
-approval_scope_inherited_from: 0.5.8
 ---
 
-> **Aprobación curricular heredada de v0.5.8 (2026-10-21):** esta revisión v0.5.9 armoniza únicamente formato y metadatos con `UT-LP-1.0`. No cambia el contenido curricular, los 58 IDs, los prerrequisitos, las actividades ni los criterios. Se conserva exactamente el alcance y la limitación de la aprobación de v0.5.8: no se completó una comparación exhaustiva línea por línea con v0.5.1 porque el archivo completo no estuvo disponible. Esta revisión no aprueba materiales de clase ni migra el estado individual.
+> **Aprobación curricular con alcance documentado (2026-10-21):** la ruta fue revisada en cuanto a coherencia estructural, integridad de IDs y enlaces, y decisiones curriculares identificadas. No se completó una comparación exhaustiva línea por línea con todo el material curricular previo. La aprobación no valida automáticamente materiales de clase ni migra el estado individual.
 
-# Ruta curricular v0.5.9 — Python para desarrolladores
+# Ruta curricular — Python para desarrolladores
 
 ## Índice general
 
@@ -52,7 +45,7 @@ approval_scope_inherited_from: 0.5.8
 <a id="01-proposito-y-perfil-de-entrada"></a>
 ## 1. Propósito y perfil de entrada
 
-Esta ruta enseña Python con profundidad suficiente para leer, escribir, probar, depurar y mantener software idiomático. La ruta curricular v0.5.8 fue aprobada el 2026-10-21 dentro del alcance documentado en el registro de aprobación: coherencia estructural, integridad de IDs/enlaces y decisiones curriculares identificadas. No se afirma una comparación exhaustiva línea por línea con v0.5.1, cuyo archivo completo no estuvo disponible durante la revisión. La aprobación no valida automáticamente materiales de clase ni migra el estado individual. La ruta aprovecha la experiencia previa declarada del estudiante en Java, Kotlin, Go y C++; no vuelve a enseñar desde cero fundamentos generales salvo que el diagnóstico detecte una brecha relevante.
+Esta ruta enseña Python con profundidad suficiente para leer, escribir, probar, depurar y mantener software idiomático. Su aprobación cubre el alcance documentado en el registro correspondiente: coherencia estructural, integridad de IDs/enlaces y decisiones curriculares identificadas. No se afirma una comparación exhaustiva línea por línea con todo el material curricular previo. La aprobación no valida automáticamente materiales de clase ni migra el estado individual. La ruta aprovecha la experiencia previa declarada del estudiante en Java, Kotlin, Go y C++; no vuelve a enseñar desde cero fundamentos generales salvo que el diagnóstico detecte una brecha relevante.
 
 La ruta es generalista. Primero cubre el lenguaje y el flujo de trabajo profesional; después integra sistemas externos y concurrencia; finalmente permite explorar áreas y escoger una especialización posterior. La prioridad práctica es construir software Python mantenible, con especial atención a herramientas para desarrolladores y automatización local. Los contenidos de backend, datos, IA/ML y código nativo se exploran como opciones, no como especializaciones completas dentro de esta ruta.
 
@@ -488,7 +481,7 @@ El listado siguiente es el índice curricular propuesto de las clases previstas.
 
 **Criterio de salida:** entregar un cliente o servicio pequeño que valide entradas, gestione fallos, utilice configuración externa y pruebe la integración.
 
-**Política de alcance para persistencia (decisión curricular v0.5.8):** para el primer proyecto, usar SQLite como opción predeterminada cuando los requisitos sean locales, de un solo usuario/proceso o de concurrencia moderada y no exijan un servidor de base de datos. Si los requisitos requieren acceso remoto multiusuario, operación administrada o capacidades que SQLite no cubra, seleccionar otra base de datos justificando la necesidad. La clase enseñará SQL parametrizado y transacciones sin convertir la selección de un motor concreto en objetivo independiente. La elección final del proyecto se registra en M09-C01/M09-C02; no se requiere infraestructura externa por defecto.
+**Política de alcance para persistencia:** para el primer proyecto, usar SQLite como opción predeterminada cuando los requisitos sean locales, de un solo usuario/proceso o de concurrencia moderada y no exijan un servidor de base de datos. Si los requisitos requieren acceso remoto multiusuario, operación administrada o capacidades que SQLite no cubra, seleccionar otra base de datos justificando la necesidad. La clase enseñará SQL parametrizado y transacciones sin convertir la selección de un motor concreto en objetivo independiente. La elección final del proyecto se registra en M09-C01/M09-C02; no se requiere infraestructura externa por defecto.
 
 <a id="m08"></a>
 ### M08 — Concurrencia y paralelismo
@@ -626,7 +619,7 @@ Antes de impartir o marcar una clase como lista, su material detallado debe espe
 
 **Puerta de calidad (`READY`):** antes de marcar una clase como `READY`, revisar los seis requisitos anteriores: (1) prerrequisitos; (2) criterio de éxito observable; (3) secuencia didáctica; (4) evidencia revisable; (5) errores previsibles y remediación; y (6) referencias realmente consultadas y verificadas. Si algún elemento no es pertinente para el objetivo de la clase, registrar una excepción breve y justificada en su material; no inventar referencias ni exigir pruebas, tipado o benchmarking cuando no correspondan. Además, el material debe respetar el alcance de la clase y no depender de suposiciones esenciales no explicadas. Si falta un requisito aplicable o su excepción justificada, la clase no está `READY`.
 
-**Generación progresiva de materiales:** las clases detalladas se crearán cuando el avance del estudiante las requiera mediante la skill de generación de clases de `@University Tutor`, no todas por adelantado. Por tanto, la auditoría de la ruta no exige que existan ya 58 lecciones completas. Al preparar cada clase, el tutor debe cargar el estado del curso y la ruta aprobada vigentes, comprobar versión, ID, prerrequisitos y alcance; generar un `DRAFT`; revisar fuentes, secuencia didáctica, ejercicios, evidencia y referencias; corregir los hallazgos; y solo entonces declarar el material `READY` para su uso, sujeto a las aprobaciones aplicables. Si falta un artefacto necesario o hay incompatibilidad de versiones, debe detenerse y reportar el problema en vez de improvisar una versión oficial. La auditoría continua verifica cada clase en el momento de generarse y antes de impartirla, y conserva los hallazgos y correcciones.
+**Generación progresiva de materiales:** las clases detalladas se crearán cuando el avance del estudiante las requiera mediante la skill de generación de clases de `@University Tutor`, no todas por adelantado. Por tanto, la auditoría de la ruta no exige que existan ya 58 lecciones completas. Al preparar cada clase, el tutor debe cargar el estado del curso y la ruta aprobada vigentes, comprobar vigencia, ID, prerrequisitos y alcance; generar un `DRAFT`; revisar fuentes, secuencia didáctica, ejercicios, evidencia y referencias; corregir los hallazgos; y solo entonces declarar el material `READY` para su uso, sujeto a las aprobaciones aplicables. Si falta un artefacto necesario o hay incompatibilidad con la ruta vigente, debe detenerse y reportar el problema en vez de improvisar una versión oficial. La auditoría continua verifica cada clase en el momento de generarse y antes de impartirla, y conserva los hallazgos y correcciones.
 
 <a id="06-prerrequisitos-y-reglas-de-avance"></a>
 ## 6. Prerrequisitos y reglas de avance
@@ -749,7 +742,7 @@ Antes de comenzar una clase, comprobar su ID, ubicación y estado de material. S
 <a id="12-decisiones-pendientes"></a>
 ## 12. Compatibilidad, migración y decisiones pendientes
 
-### Compatibilidad con el progreso existente (añadido en v0.5.7)
+### Compatibilidad con el progreso existente
 
 Esta sección es una regla de migración individual; no altera los objetivos ni declara competencias nuevas como dominadas.
 
@@ -768,28 +761,8 @@ Esta sección es una regla de migración individual; no altera los objetivos ni 
 2. **Proyecto integrador:** su dirección general será una herramienta para desarrolladores o agentes locales. El problema concreto, el alcance, las tecnologías y los criterios de aceptación se definirán después del diagnóstico y conforme avance el estudiante.
 3. **Metodología:** cada clase utilizará, como patrón por defecto, explicación breve, ejemplo, ejercicio y revisión. Se profundizará cuando el tema o la evidencia lo requieran.
 4. **Jerarquía:** módulo → submódulo opcional → clase. Ejercicios, secciones y actividades se mantienen dentro de cada clase, no como niveles curriculares formales.
-5. **Aprobación histórica de v0.5.1:** la estructura y la secuencia general M00–M10 constan como aprobadas en esa versión. Las propuestas v0.5.2–v0.5.5 no heredaron automáticamente ese estado. La decisión posterior de v0.5.8 está registrada por separado y tiene alcance limitado; no debe confundirse con una aprobación exhaustiva de materiales o con una migración de progreso.
+5. **Alcance de aprobación:** la aprobación de la ruta cubre únicamente el alcance documentado; no equivale a una aprobación exhaustiva de materiales ni a una migración de progreso.
 6. **Continuidad del curso:** conservar IDs existentes, el registro individual de progreso y la posición de estudio. Esta propuesta no actualiza `COURSE_STATE.md` ni declara nuevas competencias validadas.
-
-### Cambios introducidos en v0.5.5
-
-1. Añadir hitos H0–H8 con evidencia mínima y acción de recuperación, sin imponer fechas fijas.
-2. Declarar explícitamente que M10-C02–C06 son ramas alternativas y que M10-C07 requiere dos prototipos de áreas distintas; así se evita interpretar las cinco áreas como una secuencia obligatoria.
-3. Cambiar el título de M06 a «Protocolos, diseño de APIs y calidad avanzada» para diferenciarlo del consumo de APIs HTTP de M07.
-4. Corregir la referencia histórica que identificaba v0.5.3 como la propuesta actual.
-5. Aclarar el criterio de elección de persistencia para el primer proyecto de M07: preferir una opción local sencilla si cumple los requisitos y justificar cualquier servicio externo.
-
-### Decisiones heredadas y conservadas de v0.5.2–v0.5.4
-
-1. Mantener el límite de alcance entre M02-C01 y M02-C02–C05.
-2. Añadir hitos de avance con evidencia y acciones de recuperación, sin imponer fechas fijas.
-3. Aclarar que las cinco áreas prototipo de M10 son ramas alternativas y que basta con dos; corregir la contradicción potencial con la regla general de prerrequisitos.
-4. Afinar el nombre de M06 para distinguir diseño de APIs de consumo de APIs HTTP, que se trabaja en M07.
-5. Incluir una comprobación breve de comprensión antes de la práctica independiente de conceptos nuevos o difíciles, con reexplicación y segunda comprobación cuando sea necesario.
-6. Mantener el enfoque para desarrolladores con experiencia, usando comparaciones selectivas con Java, Kotlin, Go y C++ sin repetir fundamentos generales salvo que la evidencia revele una brecha.
-7. Conservar `unittest` como primer framework de pruebas en M01 y reservar `pytest` para M05.
-8. Mantener la orientación del proyecto integrador hacia herramientas de desarrollo o agentes locales, sin fijar prematuramente su alcance.
-9. Conservar los IDs de clase y exigir aprobación y validación de compatibilidad antes de migrar el estado del estudiante.
 
 ### Pendiente de resolver en el momento oportuno
 
@@ -799,27 +772,4 @@ Esta sección es una regla de migración individual; no altera los objetivos ni 
 4. Generar y auditar cada material de clase progresivamente, antes de impartirlo, mediante la skill de generación de clases de `@University Tutor`; no se exige producir las 58 lecciones por adelantado.
 5. Selección de motor de persistencia en el proyecto concreto: SQLite es el valor predeterminado para el caso local simple; justificar otro motor solo si los requisitos lo necesitan. La política curricular ya queda definida en la sección M07.
 
-<a id="13-historial-de-versiones"></a>
-## 13. Historial de versiones
-
-### v0.5.9 — Armonización de formato (2026-10-21)
-
-- Se aplica el contrato de formato `UT-LP-1.0` y se normalizan los metadatos.
-- No hay cambios curriculares ni cambios de IDs.
-- Se conserva el alcance limitado de aprobación de v0.5.8; no se migra `COURSE_STATE` ni se aprueba material de clase.
-
-
-- **0.5.8 — revisión curricular y aceptación (aprobada con alcance documentado el 2026-10-21):** define la política predeterminada de persistencia (SQLite cuando el caso local lo permita), añade una plantilla obligatoria y verificable de aceptación para M09, y aclara que verificar versiones/herramientas en M05 es una decisión operativa diferida que no bloquea la ruta. Conserva los 58 IDs y no cambia el estado del estudiante. La aprobación tiene los límites registrados: no afirma comparación exhaustiva contra v0.5.1, no aprueba materiales antiguos y no migra progreso.
-- **0.5.7 — borrador de compatibilidad y migración explícita:** incorpora reglas para mapear progreso previo por objetivos, competencias, criterios y evidencia; preserva estados reportados, exige estado histórico inmutable y prohíbe aplicar la migración antes de aprobar y validar ruta y matriz. No modifica el progreso del estudiante ni activa esta ruta.
-
-- **0.5.6 — borrador con auditoría progresiva de clases:** aclara que `@University Tutor` genera cada clase detallada al llegar a ella mediante su skill de generación, y que la auditoría se aplica a cada borrador antes de impartirlo, no a 58 materiales que todavía no existen. Conserva los 58 IDs, el flujo `DRAFT` → revisión → corrección → `READY` y el estado individual sin cambios. Sigue pendiente de revisión, aprobación y validación.
-- **0.5.4 — borrador corregido tras revisión documental:** corrige el historial, incorpora la subsección 5.1 en el índice, hace explícita la puerta READY, distingue exploración temprana y prototipos técnicos de M10, normaliza «remediación» y aclara los límites de comparación con v0.5.1. Conserva los 58 IDs y no migra el estado del estudiante. Sigue pendiente de revisión y aprobación.
-- **0.5.3 — borrador revisado con ajustes pedagógicos:** estrecha el alcance de M03-C08 a gestión de recursos, explicita una puerta mínima de calidad para los materiales de clase y acota temporalmente los prototipos de M10; conserva los IDs existentes, mantiene el estado del curso sin migrar y sigue pendiente de aprobación.
-- **0.5.2 — borrador de actualización revisado:** se verificó la correspondencia entre el índice tabular y el desarrollo detallado (58 IDs únicos en ambas secciones, sin faltantes ni duplicados); se comprobó la integridad de los enlaces internos; se añadió objetivo observable explícito a cada clase y se aclaró que el índice no equivale a 58 materiales didácticos ya producidos. Conserva el resto de los cambios propuestos; sigue pendiente de aprobación y validación curricular. Parte de la base aprobada v0.5.1; explicita los límites curriculares de M02-C01 frente a M02-C02–C05; añade comprobación conceptual breve antes de práctica independiente; refuerza continuidad del estudiante, compatibilidad y migración explícita; mantiene `unittest` primero y `pytest` en M05; conserva la orientación del proyecto integrador hacia tooling/agentes locales sin fijar prematuramente su alcance. Estado: pendiente de revisión y aprobación; no cambia `COURSE_STATE.md`.
-- **0.5.1 — base curricular aprobada:** registra las decisiones confirmadas sobre `unittest` y `pytest`, dirección general del proyecto integrador, metodología de clase y jerarquía curricular; aprueba la estructura y secuencia general M00–M10; conserva como pendientes las decisiones que dependen del progreso futuro, como el alcance concreto del proyecto integrador y la especialización posterior. No declara completadas las clases ni validadas las competencias.
-- **0.5.0 — borrador para revisión:** añade un índice jerárquico explícito; establece módulo, submódulo opcional, clase y secciones/actividades; incorpora IDs y un índice de clases planificadas de M00–M10; aclara prerrequisitos, evidencias, avance, proyectos, seguimiento y fuentes; alinea M01 con el plan de seis clases y `unittest` disponible en M01 v0.4.3. Mantiene la secuencia principal general de M00 a M10.
-- **0.4.2 — borrador anterior:** definía objetivos, temas, evidencias y prerrequisitos a nivel de módulo, pero no tenía un índice completo de clases ni una jerarquía formal por clase.
-
----
-
-**Estado documental de la fuente v0.5.8:** `APPROVED_WITH_DOCUMENTED_SCOPE_LIMIT`, conforme al registro de aprobación del 2026-10-21. La aprobación cubre únicamente el alcance documentado; no afirma equivalencia textual exhaustiva con v0.5.1, no aprueba materiales de clase y no migra `COURSE_STATE.md`. La revisión de formato v0.5.9 conserva esos límites y no declara clases completadas ni competencias validadas.
+**Estado documental:** `APPROVED_WITH_DOCUMENTED_SCOPE_LIMIT`. La aprobación cubre únicamente el alcance documentado; no afirma equivalencia textual exhaustiva con todo el material curricular previo, no aprueba materiales de clase y no migra `COURSE_STATE.md`.
