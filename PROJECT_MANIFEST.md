@@ -10,7 +10,9 @@ Actualizado al 2026-10-21 tras el reinicio solicitado de M02-C01.
 - Matriz de migración: registra la migración conservadora aplicada; el cotejo fino de evidencias sigue pendiente.
 - `COURSE_STATE.md`: M02-C01 reiniciada a `NOT_STARTED` a petición del estudiante. La posición curricular se conserva en M02-C01.
 - Dictamen de migración: deja pendientes los cotejos de evidencia.
-- `Clases/M01.md`: material de referencia de M01.
+- `Clases/M01 - Semántica y sintaxis esencial/README.md`: plan y material de referencia de M01.
+- `Clases/M01 - Semántica y sintaxis esencial/`: seis archivos de clase con ID y título tomados de la ruta; permanecen en estado de borrador.
+- `propuestas/MATRIZ_COMPETENCIAS_PYDEV-001.md`: matriz de competencias alineada con la ruta, en estado `DRAFT_FOR_REVIEW`.
 
 ## Historial
 
