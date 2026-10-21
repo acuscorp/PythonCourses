@@ -4,7 +4,7 @@ Actualizado al 2026-10-21 tras el reinicio solicitado de M02-C01.
 
 ## Artefactos vigentes
 
-- `LEARNING_PATH.md`: ruta curricular activa; contiene instrucciones de generación, alcance y límites, además de la tabla con módulos, clases, fuentes y secciones propuestas.
+- `LEARNING_PATH.md`: ruta curricular activa con propósito, jerarquía, resultados y prerrequisitos por módulo; instrucciones y límites de generación; e índice de clases con alcance, evidencia y lecturas.
 - `GUIA_DE_CLASES.md`: exige revisar el material de referencia antes de redactar y define la estructura y revisión de cada clase.
 - Registro de aprobación: documenta el alcance y los límites de la revisión curricular.
 - Informe de revisión: registra la revisión documental de la ruta.
