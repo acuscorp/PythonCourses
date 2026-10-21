@@ -12,15 +12,9 @@ status: DRAFT_FOR_TUTOR_USE
 
 Construir un modelo mental correcto de Python y aprender a leer, predecir, escribir y comprobar programas pequeños. El estudiante ya domina fundamentos generales de programación; por ello, el foco está en las particularidades de Python, no en volver a enseñar algoritmos desde cero.
 
-## 2. Material de referencia
+## 2. Preparación de las clases
 
-- **Fuente que gobierna el alcance:** `LEARNING_PATH.md`, ruta curricular activa `PYDEV-001`.
-- **Referencia principal del lenguaje:** *Learning Python*. No se asignan páginas hasta comprobar edición e integridad de la copia.
-- **Apoyo idiomático selectivo:** *Effective Python*, solo cuando el consejo corresponda al alcance de M01.
-- **Reservados para después:** *Hypermodern Python Tooling* para M05; *Python Concurrency with asyncio* para M08; *Python for Data Analysis* si se elige análisis de datos en M10; *The Python Standard Library by Example* como referencia selectiva posterior, contrastando los ejemplos antiguos con Python actual.
-- Puede consultarse la documentación oficial de Python 3.14 para verificar semántica concreta. Se debe distinguir esa consulta de la lectura asignada.
-
-No se inventan páginas, citas textuales ni correspondencias de capítulos que no se hayan verificado. Los libros complementan; no reemplazan los ejercicios ni la comprobación de habilidades.
+La tabla de `LEARNING_PATH.md` asigna fuentes y secciones propuestas para cada clase. Antes de redactar una lección, se deben consultar esas fuentes, confirmar edición e índice y leer la sección pertinente. La estructura obligatoria, el registro de fuentes efectivamente consultadas y la revisión previa a `READY` están definidos en [Guía para preparar las clases](../../GUIA_DE_CLASES.md).
 
 ## 3. Resultados de aprendizaje
 
@@ -183,7 +177,7 @@ Registrar cada dimensión como `PENDIENTE`, `CON APOYO` o `VALIDADO`:
 - M04 conserva archivos, CLI y biblioteca estándar aplicada; el proyecto de M01 trabaja solo con una cadena en memoria.
 - No se incorporan tooling profesional, HTTP, persistencia ni concurrencia de M05–M08.
 - Se eligió `unittest` como único framework inicial.
-- No se asignan páginas de *Learning Python* sin verificar la edición e integridad.
+- Las fuentes de cada clase se registran según `GUIA_DE_CLASES.md`; no se asignan páginas o capítulos que no se hayan cotejado.
 - Los resultados esperados de los ejemplos de código se comprobaron mediante ejecución de fragmentos equivalentes. Esto no verifica automáticamente todo el proyecto final ni sustituye las pruebas que deberá escribir el estudiante.
 
 **Estado del material:** preparado para tutoría. Las habilidades del estudiante siguen pendientes de evaluación.
