@@ -146,8 +146,8 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 ### B16 — Python Concurrency with asyncio
 
 - **Autoría:** Matthew Fowler.
-- **Edición indicada por la fuente:** Referencia ya presente en la ruta; edición por confirmar.
-- **Registro fuente:** [catálogo de libros](https://github.com/acuscorp/PythonCourses/blob/main/LEARNING_PATH.md#10-materiales-de-referencia).
+- **Edición indicada por la fuente:** Referencia ya presente en la ruta anterior; edición por confirmar.
+- **Registro fuente:** [referencia previa de la ruta](https://github.com/acuscorp/PythonCourses/blob/71251b5e2f94a39660de6f74bf0dd3a0cf70eb90/LEARNING_PATH.md#10-materiales-de-referencia).
 - **Uso propuesto:** M08, concurrencia asíncrona.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
@@ -156,7 +156,7 @@ Fuente de descubrimiento: [junnplus/awesome-python-books](https://github.com/jun
 
 - **Autoría:** Datos bibliográficos por confirmar.
 - **Edición indicada por la fuente:** Referencia ya presente en la ruta; edición por confirmar.
-- **Registro fuente:** [catálogo de libros](https://github.com/acuscorp/PythonCourses/blob/main/LEARNING_PATH.md#10-materiales-de-referencia).
+- **Registro fuente:** [catálogo de libros](https://github.com/acuscorp/PythonCourses/blob/71251b5e2f94a39660de6f74bf0dd3a0cf70eb90/LEARNING_PATH.md#10-materiales-de-referencia).
 - **Uso propuesto:** M05, tooling reproducible.
 - **Editorial, año, ISBN, ejemplar e índice verificados:** pendientes; completar solo tras consultar el ejemplar o una fuente editorial fiable.
 - **Capítulos o secciones:** pendientes de verificar; no asignar páginas por ahora.
