@@ -10,7 +10,7 @@ Repositorio curricular del curso de Python para desarrolladores.
 ## Estructura del repositorio
 
 - `Clases/MXX - Nombre del módulo/`: carpeta de cada módulo, nombrada con su ID y título de la ruta; contiene un `README.md` de módulo y materiales de clase `MXX-CNN - Título de la ruta.md`.
-- `LEARNING_PATH.md` contiene instrucciones, alcance y límites para generar clases, además de la tabla de lecturas por módulo y clase.
+- `LEARNING_PATH.md` reúne propósito, jerarquía, resultados y prerrequisitos por módulo, instrucciones y límites de generación, e índice de clases con alcance, evidencia y lecturas.
 - `propuestas/`: borradores y propuestas pendientes de aprobación, incluida la matriz de competencias.
 - `Evidencias/`: evidencias académicas revisadas antes de publicarse.
 - `Historial/`: registros históricos saneados.
