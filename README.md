@@ -7,13 +7,12 @@ Repositorio curricular del curso de Python para desarrolladores.
 - [Ruta curricular](LEARNING_PATH.md).
 - [Estado del curso](COURSE_STATE.md) — posición actual y progreso académico registrado.
 
-## Organización prevista
+## Estructura del repositorio
 
 - `Clases/MXX - Nombre del módulo/`: carpeta de cada módulo, nombrada con su ID y título de la ruta; contiene un `README.md` de módulo y materiales de clase `MXX-CNN - Título de la ruta.md`.
 - `propuestas/`: borradores y propuestas pendientes de aprobación, incluida la matriz de competencias.
 - `Evidencias/`: evidencias académicas revisadas antes de publicarse.
 - `Historial/`: registros históricos saneados.
-- `propuestas/`: borradores y propuestas pendientes de aprobación.
 
 ## Reglas de mantenimiento
 
