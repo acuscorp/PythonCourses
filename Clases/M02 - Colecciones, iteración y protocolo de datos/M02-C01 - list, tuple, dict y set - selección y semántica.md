@@ -40,10 +40,14 @@ El objetivo no es memorizar cuatro definiciones: es convertir requisitos en una 
 
 1. **Python Software Foundation, Tutorial oficial de Python, sección 5 — Estructuras de datos.** Consultado para las operaciones básicas de listas, tuplas, conjuntos y diccionarios: https://docs.python.org/es/3/tutorial/datastructures.html
 2. **Python Software Foundation, documentación de tipos integrados.** Consultada para contrastar la semántica de secuencias, mapeos, conjuntos y mutabilidad: https://docs.python.org/3/library/stdtypes.html
-3. **Fluent Python, 2.ª edición**, índice enlazado en la ruta curricular: https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/
-4. **The Quick Python Book, 3.ª edición**, índice enlazado en la ruta curricular: https://livebook.manning.com/book/the-quick-python-book-third-edition/table-of-contents
+3. **Fluent Python, 2.ª edición**, capítulos 2 y 3. Se consultaron los extractos públicos del editor:
+   - Capítulo 2, *An Array of Sequences*: https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/ch02.html
+   - Capítulo 3, *Dictionaries and Sets*: https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/ch03.html
+4. **The Quick Python Book, 3.ª edición**, capítulos 5 y 7. Se consultó el extracto público del capítulo 5 y el índice editorial:
+   - Capítulo 5, *Lists, tuples, and sets*: https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-5
+   - Índice editorial: https://livebook.manning.com/book/the-quick-python-book-third-edition/table-of-contents
 
-**Trazabilidad:** se consultaron directamente las dos páginas oficiales de Python enlazadas arriba. Los libros se identificaron mediante los índices disponibles, pero no se leyó el texto completo de los capítulos asignados durante esta preparación; no se les atribuyen explicaciones específicas sin verificar. Los escenarios y ejercicios son ejemplos didácticos elaborados para esta clase, no citas de las fuentes.
+**Trazabilidad:** se consultaron directamente las dos páginas oficiales de Python y extractos públicos de los capítulos 2 y 3 de *Fluent Python* y del capítulo 5 de *The Quick Python Book*. También se verificaron los títulos y el alcance general de los capítulos en los índices editoriales. No se tuvo acceso al texto completo de todos los capítulos asignados, en particular al capítulo 7 de *The Quick Python Book*; por tanto, no se afirma una lectura completa ni se atribuyen a ese capítulo explicaciones específicas sin verificar. Los escenarios y ejercicios son ejemplos didácticos elaborados para esta clase, no citas de las fuentes.
 
 
 ## 4. Conceptos y explicación
@@ -492,12 +496,12 @@ La siguiente clase, M02-C02 — *Slicing, desempaquetado y operaciones de secuen
 | --- | --- | --- |
 | ID, título, objetivo y prerrequisitos alineados con la ruta | PASS | Se conservan el ID y título curricular; el objetivo se centra en seleccionar estructuras según los requisitos. |
 | Límites curriculares | PASS | Se reservan slicing, comprensiones, protocolo de iteración, hashabilidad profunda, copias y complejidad detallada para clases posteriores. |
-| Fuentes rastreables y honestidad de acceso | PASS | Se consultaron dos páginas oficiales; se declara que los capítulos de los libros solo se identificaron mediante sus índices. |
+| Fuentes rastreables y honestidad de acceso | PASS | Se registran los extractos editoriales consultados, las páginas oficiales y el límite de acceso al capítulo 7 de The Quick Python Book. |
 | Explicaciones y ejemplos resueltos | PASS | Cada estructura tiene semántica, ejemplo y guía de selección; se aclara que `in` en diccionarios comprueba claves. |
 | Comprobación, práctica guiada e independiente | PASS | La predicción conceptual incluye autocorrección; la práctica guiada muestra una solución razonada tras la pista. |
 | Errores previsibles y remediación | PASS | Se explican confusiones frecuentes y se propone una comprobación alternativa. |
 | Ejemplos deterministas ejecutados | PASS | Se ejecutaron los ejemplos principales y la comprobación conceptual en un intérprete Python; las aserciones y el caso de `KeyError` pasaron. |
-| Lectura directa de los libros asignados | FIX | No se tuvo acceso al texto completo de los capítulos asignados; la clase no debe presentarse como fundamentada en una lectura directa de esos libros. |
+| Lectura completa de los capítulos asignados | FIX | Se revisaron extractos editoriales de tres capítulos, pero no el texto completo de todos los capítulos asignados; falta consultar directamente el capítulo 7 de The Quick Python Book y completar el cotejo. |
 | Aprobación académica del material | NOT APPLICABLE | La revisión técnica del borrador no equivale a aprobación curricular ni demuestra aprendizaje del estudiante. |
 
-**Resultado de aceptación:** `DRAFT`. Se corrigieron los defectos técnicos y pedagógicos identificados y se verificaron los ejemplos deterministas. Se conserva `DRAFT` porque falta cotejar directamente los capítulos asignados de los libros y obtener aprobación académica. La clase no está marcada `READY`.
+**Resultado de aceptación:** `DRAFT`. La estructura didáctica, el alcance y los ejemplos principales pasan la revisión actual. Se conserva `DRAFT` porque falta consultar directamente el texto completo de todos los capítulos asignados —en particular el capítulo 7 de The Quick Python Book— y completar el cotejo bibliográfico antes de la aprobación académica. La clase no está marcada `READY`.
