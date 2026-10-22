@@ -36,7 +36,7 @@ Este archivo contiene únicamente el estado dinámico del estudiante y la posici
 |---|---|---|---|
 | M00 — Diagnóstico y entorno | PENDING_REVIEW | Diagnóstico formal no acreditado | Resolver el diagnóstico cuando corresponda |
 | M01 — Semántica y sintaxis esencial | IN_PROGRESS | C06 reportada como completada; C01–C05 con evidencia parcial | Cotejar evidencias con los criterios curriculares |
-| M02 — Colecciones, iteración y protocolo de datos | NOT_STARTED | M02-C01 es la siguiente clase planificada y aún no se ha iniciado | Revisar los prerrequisitos de M00 y M01 o documentar evidencia equivalente antes de comenzar M02 |
+| M02 — Colecciones, iteración y protocolo de datos | NOT_STARTED | M02-C01 es la siguiente clase planificada y aún no se ha iniciado | Comenzar M02-C01; atender posibles brechas de conocimientos durante la clase |
 | M03–M10 | NOT_STARTED | Sin progreso registrado en este estado | Avanzar según prerrequisitos y evidencias |
 
 ## Reglas de actualización
